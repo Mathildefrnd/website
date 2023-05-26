@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+body {
+	font-family: 'Lato';
+	font-size: ; 18px
+}
+h1, h2, h3 {
+	font-family: 'Oswald' ;
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.cards {
+  flex-basis: 250px;
+	flex-grow: 1;
+	background: white;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,0.5);    /* Light shadow */
+	margin: 50px;
+}
+
+.typeform {
+	padding: 30px;
+	display: flex;
+	flex-basis: 250px;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	align-items: center;
+	background-position: center;
+}
+
+a:hover {
+	color: white;
